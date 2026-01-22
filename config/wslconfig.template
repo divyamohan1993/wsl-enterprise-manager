@@ -1,0 +1,31 @@
+[wsl2]
+# Memory limit for WSL2 (recommended: 50% of system RAM)
+memory=4GB
+
+# Number of processors to allocate
+processors=2
+
+# Swap file size
+swap=4GB
+
+# Enable localhost forwarding
+localhostForwarding=true
+
+# Enable WSLg GUI applications
+guiApplications=true
+
+# Disable page reporting for better performance
+pageReporting=false
+
+# Enable nested virtualization (for Docker, etc.)
+nestedVirtualization=true
+
+# Network settings
+# networkingMode=NAT
+
+[experimental]
+# Sparse VHD - reduces disk usage
+sparseVhd=true
+
+# Auto memory reclaim
+autoMemoryReclaim=gradual
