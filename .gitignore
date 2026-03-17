@@ -1,0 +1,10 @@
+# Runtime output
+logs/
+backups/
+exports/
+forensics/*.txt
+forensics/*.log
+
+# OS
+Thumbs.db
+Desktop.ini
